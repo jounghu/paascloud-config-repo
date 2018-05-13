@@ -2,18 +2,18 @@ spring:
   profiles:
     active: dev
   rabbitmq:
-    host: 47.96.173.142
+    host: 192.168.1.12
     port: 5672
-    username: guest
-    password: guest
+    username: admin
+    password: 123456
   redis:
-    host: 47.96.173.142
-    password: paascloud@redis
+    host: 192.168.1.11
+    password:
     port: 6379
     timeout: 0
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    username: paascloud
+    username: root
     password: 123456
     type: com.alibaba.druid.pool.DruidDataSource
     initial-size: 10
